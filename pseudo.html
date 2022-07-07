@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover{
+            font-size: 50px;
+            background-color: lightcoral;
+        }
+        .focused:focus{
+            color: blue;
+            padding: 20px;
+        }
+        a:visited{
+            color: red;
+        }
+
+        li:first-child{
+            color: aqua;
+        }
+        li:last-child{
+            color: aqua;
+        }
+
+        li:nth-child(2n+1){
+            color: red;
+        }
+
+        h3::before{
+            content: "hello";
+            background-color: aqua;
+        }
+
+        h3::after{
+            content: "gello";
+            color: blue;
+            background-color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>This is heading</h1>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://web.programming-hero.com">Programming hero</a>
+    <a href="https://www.underconsideration.com/brandnew/">Brand new</a>
+    <br>
+    <br>
+    <input class="focused" type="text">
+    <input type="text">
+    <input type="text">
+
+
+    <ul>
+        <li>list item - 1</li>
+        <li>list item - 2</li>
+        <li>list item - 3</li>
+        <li>list item - 4</li>
+        <li>list item - 5</li>
+        <li>list item - 6</li>
+        <li>list item - 7</li>
+        <li>list item - 8</li>
+        <li>list item - 9</li>
+        <li>list item - 10</li>
+    </ul>
+
+    <h3>Middle heading-1</h3>
+    <h3>Middle heading-2</h3>
+    <h3>Middle heading-3</h3>
+    <h3>Middle heading-4</h3>
+    <h3>Middle heading-5</h3>
+    <h3>Middle heading-6</h3>
+</body>
+</html>
